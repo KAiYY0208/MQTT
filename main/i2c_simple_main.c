@@ -38,6 +38,9 @@ static const char *TAG = "i2c-simple-example";
 #define MPU9250_RESET_BIT                   7
 
 /**
+ *  * 
+ *  * 
+ *  * 
  * @brief Read a sequence of bytes from a MPU9250 sensor registers
  */
 static esp_err_t mpu9250_register_read(uint8_t reg_addr, uint8_t *data, size_t len)
